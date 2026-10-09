@@ -12,11 +12,11 @@
 
 | # | Task | Folder | Status |
 |---|------|--------|--------|
-| 1 | Iris Flower Classification | [DataScience-Task1-IrisFlowerClassification](DataScience-Task1-IrisFlowerClassification/) | **In progress — setup/data inspection verified** |
+| 1 | Iris Flower Classification | [DataScience-Task1-IrisFlowerClassification](DataScience-Task1-IrisFlowerClassification/) | **In progress — setup, data inspection, and visualizations verified; interpretation pending** |
 | 2 | Unemployment Analysis with Python | [DataScience-Task2-UnemploymentAnalysis](DataScience-Task2-UnemploymentAnalysis/) | Not started |
 | 5 | Sales Prediction Using Python | [DataScience-Task5-SalesPrediction](DataScience-Task5-SalesPrediction/) | Not started |
 
-**Task 1 progress so far:** The initial Iris loading and data-inspection cells have been run. The reported DataFrame has 150 rows and 6 columns; its four measurements are `float64`, `target` is `int64`, `species` is categorical, null counts are zero, and each species has 50 rows. The notebook kernel was verified to use the project `.venv`. Visualizations, model training, and evaluation are **not yet complete**.
+**Task 1 progress so far:** The Iris loading and data-inspection cells have been run. The reported DataFrame has 150 rows and 6 columns; its four measurements are `float64`, `target` is `int64`, `species` is categorical, null counts are zero, and each species has 50 rows. The notebook kernel was verified to use the project `.venv`. The exploratory visualizations have now been generated from the real data: a species-coloured pair plot and four per-feature box plots (saved to the task's `figures/` folder). The plotted frame uses only the four measurement columns plus `species` — the numeric `target` was not included. Written interpretation of the charts, model training, and evaluation are **not yet complete**.
 
 Each task folder contains:
 

@@ -1,7 +1,7 @@
 # Task 1 — Iris Flower Classification
 
 **Intern:** Aphile Ashley · **Track:** Data Science  
-**Status:** **In progress — setup/data inspection verified**
+**Status:** **In progress — setup, data inspection, and visualizations verified; interpretation pending**
 
 ## Objective
 
@@ -22,8 +22,10 @@ Classify iris flowers into their three species from sepal and petal measurements
 - Null counts are zero for every column.
 - There are 50 records for each species.
 - The notebook kernel was verified to use the project `.venv`.
+- A species-coloured pair plot was generated from the real data using only the four measurement columns plus `species`.
+- Four box plots (one per measurement) grouped by species were generated; the numeric `target` was excluded from the plotted frame.
 
-**This verifies only the setup and initial data-inspection stage.** The visualizations, feature discussion, train/test split, models, evaluation, and conclusions have not yet been completed.
+**Visualizations have been generated; interpretation is still pending.** The feature discussion (written in my own words), train/test split, models, evaluation, and conclusions have not yet been completed. The chart PNGs are saved as `figures/task1_pairplot.png` and `figures/task1_boxplots.png`.
 
 ## Tools and environment
 
@@ -42,8 +44,8 @@ Classify iris flowers into their three species from sepal and petal measurements
 
 - [x] Load the built-in Iris data and create readable species labels
 - [x] Inspect shape, data types, null counts, descriptive statistics, and species counts
-- [ ] Pair plot/scatter matrix showing feature distributions by species
-- [ ] Box plots for each feature
+- [x] Pair plot/scatter matrix showing feature distributions by species
+- [x] Box plots for each feature
 - [ ] Discuss which features appear most discriminative based on the plots
 - [ ] Reproducible approximately 80/20 train/test split using `train_test_split` and `stratify=y`
 - [ ] Train at least two classifiers; use a scaling pipeline for scale-sensitive models

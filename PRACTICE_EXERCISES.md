@@ -28,6 +28,28 @@ into the real datasets.
 - [ ] **3.3** Print a classification report and explain every metric in it
 - **TODO:** Note one mistake I made and how I spotted it
 
+## Exercise set 4 — Visualisation practice: the Wine dataset (not started)
+
+**Practice only.** This uses scikit-learn's built-in **Wine** dataset and is
+completely separate from the Iris internship task. None of it is internship data
+or an internship result.
+
+- [ ] **4.1** Load the Wine dataset with `load_wine(as_frame=True)` and build a
+  DataFrame with readable class names (map the numeric target to
+  `wine.target_names`).
+- [ ] **4.2** Make a pair plot (`seaborn.pairplot`) coloured by wine class using
+  only the feature columns — keep the target column out of the plot.
+- [ ] **4.3** Make a small grid of box plots (`seaborn.boxplot`), one panel per
+  feature, grouped by wine class.
+- [ ] **4.4** Save the figures into a clearly named practice folder (for example
+  `practice_figures/`) so they are never confused with task outputs.
+- **TODO (reflection, in my own words):** which Wine features look most
+  discriminative, and how is reading these charts the same as or different from
+  reading the Iris charts?
+
+Do not mark this set complete until I have actually run it and written the
+reflection myself.
+
 ## Synthetic-data rule
 
 Synthetic rows created for practice live only in this file or in clearly
