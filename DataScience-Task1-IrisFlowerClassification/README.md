@@ -1,7 +1,7 @@
 # Task 1 — Iris Flower Classification
 
 **Intern:** Aphile Ashley · **Track:** Data Science  
-**Status:** **In progress — setup, data inspection, and visualizations verified; stratified train/test split added; interpretation and models pending**
+**Status:** **In progress — setup/data inspection, visualizations, stratified split, and chart observations recorded; model training/evaluation pending**
 
 ## Objective
 
@@ -26,7 +26,7 @@ Classify iris flowers into their three species from sepal and petal measurements
 - Four box plots (one per measurement) grouped by species were generated; the numeric `target` was excluded from the plotted frame.
 - A reproducible stratified 80/20 train/test split was added using the four measurement features (`iris.data`) and the species target (`iris.target`) with `random_state=42` and `stratify=y`. The split was verified to give **120 training rows and 30 test rows**, with **40 of each species in training and 10 of each in the test set**.
 
-**Visualizations and the train/test split have been generated and verified; chart interpretation is still pending.** The feature discussion (written in my own words), model training, evaluation, and conclusions have not yet been completed. The chart PNGs are saved as `figures/task1_pairplot.png` and `figures/task1_boxplots.png`.
+**Visualizations, the train/test split, and the chart observations are recorded and verified.** The chart-observation section is now present in the notebook. Model training, evaluation, model comparison, and conclusions are **not yet complete**. The chart PNGs are saved as `figures/task1_pairplot.png` and `figures/task1_boxplots.png`.
 
 ## Tools and environment
 
@@ -47,7 +47,7 @@ Classify iris flowers into their three species from sepal and petal measurements
 - [x] Inspect shape, data types, null counts, descriptive statistics, and species counts
 - [x] Pair plot/scatter matrix showing feature distributions by species
 - [x] Box plots for each feature
-- [ ] Discuss which features appear most discriminative based on the plots
+- [x] Discuss which features appear most discriminative based on the plots
 - [x] Reproducible approximately 80/20 train/test split using `train_test_split` and `stratify=y`
 - [ ] Train at least two classifiers; use a scaling pipeline for scale-sensitive models
 - [ ] Evaluate each model using accuracy, confusion matrix, precision, recall, and F1
