@@ -26,7 +26,7 @@ Classify iris flowers into their three species from sepal and petal measurements
 - Four box plots (one per measurement) grouped by species were generated; the numeric `target` was excluded from the plotted frame.
 - A reproducible stratified 80/20 train/test split was added using the four measurement features (`iris.data`) and the species target (`iris.target`) with `random_state=42` and `stratify=y`. The split was verified to give **120 training rows and 30 test rows**, with **40 of each species in training and 10 of each in the test set**.
 
-**Visualizations, the train/test split, and the chart observations are recorded and verified.** The chart-observation section is now present in the notebook. Model training, evaluation, model comparison, and conclusions are **not yet complete**. The chart PNGs are saved as `figures/task1_pairplot.png` and `figures/task1_boxplots.png`.
+**Visualizations, the train/test split, and the chart observations are recorded and verified.** The chart-observation section is now present in the notebook. Both baseline pipelines (Logistic Regression and K-Nearest Neighbors with StandardScaler) were fitted on `X_train, y_train`. Test evaluation, model comparison, model selection, conclusions, and limitations remain pending. The chart PNGs are saved as `figures/task1_pairplot.png` and `figures/task1_boxplots.png`.
 
 ## Tools and environment
 
@@ -49,7 +49,7 @@ Classify iris flowers into their three species from sepal and petal measurements
 - [x] Box plots for each feature
 - [x] Discuss which features appear most discriminative based on the plots
 - [x] Reproducible approximately 80/20 train/test split using `train_test_split` and `stratify=y`
-- [ ] Train at least two classifiers; use a scaling pipeline for scale-sensitive models
+- [x] Train at least two classifiers; use a scaling pipeline for scale-sensitive models
 - [ ] Evaluate each model using accuracy, confusion matrix, precision, recall, and F1
 - [ ] Select and justify the best-performing model using actual held-out results
 - [ ] Complete a clean, commented notebook and rerun it from a fresh kernel

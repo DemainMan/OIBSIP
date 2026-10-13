@@ -12,7 +12,7 @@
 
 | # | Task | Folder | Status |
 |---|------|--------|--------|
-| 1 | Iris Flower Classification | [DataScience-Task1-IrisFlowerClassification](DataScience-Task1-IrisFlowerClassification/) | **In progress — setup/data inspection, visualizations, stratified split, and chart observations recorded; model training/evaluation pending** |
+| 1 | Iris Flower Classification | [DataScience-Task1-IrisFlowerClassification](DataScience-Task1-IrisFlowerClassification/) | **In progress — setup/data inspection, visualizations, stratified split, chart observations recorded; two baseline classifiers fitted on the training set; test evaluation and model comparison pending** |
 | 2 | Unemployment Analysis with Python | [DataScience-Task2-UnemploymentAnalysis](DataScience-Task2-UnemploymentAnalysis/) | Not started |
 | 5 | Sales Prediction Using Python | [DataScience-Task5-SalesPrediction](DataScience-Task5-SalesPrediction/) | Not started |
 
