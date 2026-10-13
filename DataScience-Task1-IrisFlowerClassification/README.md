@@ -1,7 +1,7 @@
 # Task 1 — Iris Flower Classification
 
 **Intern:** Aphile Ashley · **Track:** Data Science  
-**Status:** **In progress — setup/data inspection, visualizations, stratified split, and chart observations recorded; model training/evaluation pending**
+**Status:** **In progress — setup/data inspection, visualizations, stratified split, chart observations recorded; two baseline classifiers trained on the training set; test evaluation and model comparison pending**
 
 ## Objective
 
