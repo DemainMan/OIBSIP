@@ -12,7 +12,7 @@
 
 | # | Task | Folder | Status |
 |---|------|--------|--------|
-| 1 | Iris Flower Classification | [DataScience-Task1-IrisFlowerClassification](DataScience-Task1-IrisFlowerClassification/) | **In progress — setup/data inspection, visualizations, stratified split, chart observations recorded; two baseline classifiers fitted on the training set; test evaluation and model comparison pending** |
+| 1 | Iris Flower Classification | [DataScience-Task1-IrisFlowerClassification](DataScience-Task1-IrisFlowerClassification/) | **In progress — setup/data inspection, visualizations, stratified split, chart observations recorded; two baseline classifiers fitted on the training set; test evaluation and comparison complete; model selection recorded; fresh-kernel run verified** |
 | 2 | Unemployment Analysis with Python | [DataScience-Task2-UnemploymentAnalysis](DataScience-Task2-UnemploymentAnalysis/) | Not started |
 | 5 | Sales Prediction Using Python | [DataScience-Task5-SalesPrediction](DataScience-Task5-SalesPrediction/) | Not started |
 
@@ -65,10 +65,10 @@ Then open the task notebook you want to review and run it top to bottom.
 ### Task 1 — Iris Flower Classification
 
 - [ ] Notebook runs end to end from a fresh kernel after all task sections are complete
-- [ ] EDA charts, train/test split, at least two classifiers, and full evaluation are complete
+- [x] EDA charts, train/test split, at least two classifiers, and full evaluation are complete
 - [x] Chart observations recorded in the notebook
-- [ ] Model comparison complete
-- [ ] Task `README.md` has my actual findings and limitations
+- [x] Model comparison complete
+- [x] Task `README.md` has my actual findings and limitations
 - [ ] Relevant screenshots/output files are saved
 
 ### Task 2 — Unemployment Analysis
@@ -77,7 +77,7 @@ Then open the task notebook you want to review and run it top to bottom.
 - [ ] Notebook runs end to end from a fresh kernel
 - [ ] Cleaning, regional/monthly analysis, heatmap, and pre/post-COVID comparison with a confirmed cutoff are complete
 - [ ] Written observation after every chart; no causal claims
-- [ ] Task `README.md` has my actual findings and limitations
+- [x] Task `README.md` has my actual findings and limitations
 - [ ] Relevant screenshots/output files are saved
 
 ### Task 5 — Sales Prediction
@@ -86,7 +86,7 @@ Then open the task notebook you want to review and run it top to bottom.
 - [ ] Notebook runs end to end from a fresh kernel
 - [ ] EDA, two regressors, MAE/RMSE/R² comparison, residual plot, and coefficient/importance discussion are complete
 - [ ] Written interpretation does not present predictive importance as causation
-- [ ] Task `README.md` has my actual findings and limitations
+- [x] Task `README.md` has my actual findings and limitations
 - [ ] Relevant screenshots/output files are saved
 
 ### Demo videos (one per task, per the task-list workflow)
