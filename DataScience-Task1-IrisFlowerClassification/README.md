@@ -1,7 +1,7 @@
 # Task 1 — Iris Flower Classification
 
-**Intern:** Aphile Ashley · **Track:** Data Science  
-**Status:** **In progress — setup/data inspection, visualizations, stratified split, chart observations recorded; two baseline classifiers trained on the training set; test evaluation and model comparison pending**
+**Intern:** Aphile Ashley · **Track:** Data Science
+**Status:** **In progress — setup/data inspection, visualizations, stratified split, chart observations recorded; two baseline classifiers trained on the training set; test evaluation complete (both 28/30 correct on held-out set; Logistic Regression more balanced across versicolor/virginica); model selection and conclusions recorded; final clean run pending**
 
 ## Objective
 
@@ -56,11 +56,9 @@ Classify iris flowers into their three species from sepal and petal measurements
 
 ## Findings
 
-> Complete this section only after running the remaining analysis. Use actual outputs and write interpretations I can explain.
-
-- **TODO:** Which measurements appear most discriminative, based on my charts?
-- **TODO:** What are the actual test results for each model?
-- **TODO:** Which model do I select, and why?
+- **Discriminative features (charts):** Petal length and petal width separate the species most clearly, especially setosa; versicolor and virginica show some overlap.
+- **Test results (held-out set, 30 samples):** Logistic Regression — accuracy 0.9333 (28/30). Confusion (true rows): setosa [10,0,0], versicolor [0,9,1], virginica [0,1,9] (P/R/F1 ~0.90 for versicolor/virginica). K-Nearest Neighbors — accuracy 0.9333 (28/30). Confusion: setosa [10,0,0], versicolor [0,10,0], virginica [0,2,8] (all versicolor found, two virginica misclassified as versicolor; versicolor precision ~0.83, virginica recall ~0.80). Both models achieve **28/30 correct**.
+- **Model selection (on this split):** **Logistic Regression** is selected because it is more balanced across versicolor and virginica (precision/recall ~0.90 each), while KNN trades some precision for perfect versicolor recall. This choice is based on class-level metrics on this single split; it does not guarantee LR will always be better.
 
 ## Limitations
 
