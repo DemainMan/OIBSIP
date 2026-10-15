@@ -64,7 +64,7 @@ Then open the task notebook you want to review and run it top to bottom.
 
 ### Task 1 — Iris Flower Classification
 
-- [ ] Notebook runs end to end from a fresh kernel after all task sections are complete
+- [x] Notebook runs end to end from a fresh kernel after all task sections are complete
 - [x] EDA charts, train/test split, at least two classifiers, and full evaluation are complete
 - [x] Chart observations recorded in the notebook
 - [x] Model comparison complete
