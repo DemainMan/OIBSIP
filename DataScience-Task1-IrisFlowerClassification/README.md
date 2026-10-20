@@ -1,7 +1,7 @@
 # Task 1 — Iris Flower Classification
 
 **Intern:** Aphile Ashley · **Track:** Data Science
-**Status:** **In progress — setup/data inspection, visualizations, stratified split, chart observations recorded; two baseline classifiers trained on the training set; test evaluation complete (both 28/30 correct on held-out set; Logistic Regression more balanced across versicolor/virginica); model selection and conclusions recorded; final clean run pending**
+**Status:** **In progress — setup/data inspection, visualizations, stratified split, chart observations recorded; two baseline classifiers trained on the training set; test evaluation complete (both 28/30 correct on held-out set; Logistic Regression more balanced across versicolor/virginica); model selection and conclusions recorded; fresh-kernel run verified**
 
 ## Objective
 
@@ -26,7 +26,9 @@ Classify iris flowers into their three species from sepal and petal measurements
 - Four box plots (one per measurement) grouped by species were generated; the numeric `target` was excluded from the plotted frame.
 - A reproducible stratified 80/20 train/test split was added using the four measurement features (`iris.data`) and the species target (`iris.target`) with `random_state=42` and `stratify=y`. The split was verified to give **120 training rows and 30 test rows**, with **40 of each species in training and 10 of each in the test set**.
 
-**Visualizations, the train/test split, and the chart observations are recorded and verified.** The chart-observation section is now present in the notebook. Both baseline pipelines (Logistic Regression and K-Nearest Neighbors with StandardScaler) were fitted on `X_train, y_train`. Test evaluation and comparison are complete; model selection and conclusions are recorded. Remaining items: complete final checks, add relevant screenshots/output files if required, record the demo with required title card, post/link on LinkedIn (tag Oasis Infobyte, include #oasisinfobyte), and address remaining submission items. The chart PNGs are saved as `figures/task1_pairplot.png` and `figures/task1_boxplots.png`.
+**Visualizations, the train/test split, and the chart observations are recorded and verified.** The chart-observation section is now present in the notebook. Both baseline pipelines (Logistic Regression and K-Nearest Neighbors with StandardScaler) were fitted on `X_train, y_train`. Test evaluation and comparison are complete; model selection and conclusions are recorded. The notebook has been rerun end to end from a fresh kernel (verified). Remaining items: save relevant screenshots/output files if required, record the demo with the required title card, post/link on LinkedIn (tag Oasis Infobyte, include #oasisinfobyte), and address remaining submission items.
+
+**Figure-path note:** the notebook saves PNGs to a relative `figures/` directory, so the location depends on the working directory used to launch it. The verified fresh-kernel run (launched from the repository root) wrote `figures/task1_pairplot.png` and `figures/task1_boxplots.png` at the repository root; copies from an earlier run (launched from this task folder) sit in `DataScience-Task1-IrisFlowerClassification/figures/` with the same filenames but different file contents. Both committed sets are left in place as-is.
 
 ## Tools and environment
 
@@ -52,7 +54,8 @@ Classify iris flowers into their three species from sepal and petal measurements
 - [x] Train at least two classifiers; use a scaling pipeline for scale-sensitive models
 - [x] Evaluate each model using accuracy, confusion matrix, precision, recall, and F1
 - [x] Select and justify the best-performing model using actual held-out results
-- [ ] Complete a clean, commented notebook and rerun it from a fresh kernel
+- [x] Rerun the notebook end to end from a fresh kernel (verified)
+- [ ] Final clean-and-commented polish pass on the notebook cells
 
 ## Findings
 
@@ -68,8 +71,9 @@ Classify iris flowers into their three species from sepal and petal measurements
 
 ## Submission tracking
 
-- [ ] Complete remaining analysis and rerun the full notebook from a fresh kernel
-- [ ] Add my chart observations, model comparison, and limitations
+- [x] Rerun the full notebook from a fresh kernel (verified)
+- [x] Remaining analysis completed (evaluation, comparison, model selection, and conclusions recorded above)
+- [x] Add my chart observations, model comparison, and limitations
 - [ ] Save relevant screenshots/output files as required
 - [ ] Record a functioning demo with the required 2-second title card
 - [ ] Post/link the demo on LinkedIn, tag Oasis Infobyte, and include `#oasisinfobyte`

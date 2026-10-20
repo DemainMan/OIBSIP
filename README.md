@@ -16,7 +16,7 @@
 | 2 | Unemployment Analysis with Python | [DataScience-Task2-UnemploymentAnalysis](DataScience-Task2-UnemploymentAnalysis/) | Not started |
 | 5 | Sales Prediction Using Python | [DataScience-Task5-SalesPrediction](DataScience-Task5-SalesPrediction/) | Not started |
 
-**Task 1 progress so far:** The Iris loading and data-inspection cells have been run (150 rows × 6 columns; measurements float64, target int64, species categorical; no nulls; 50 rows per species). The kernel uses the project `.venv`. Species-coloured pair plot and four per-feature box plots are saved to `figures/`. A reproducible stratified 80/20 split (random_state=42, stratify=y) gives 120 train / 30 test with 40/10 per species. Two baseline pipelines (Logistic Regression and KNN) with StandardScaler were fitted on training data only. Test evaluation on the held-out set gives both models **28/30 correct (93.33%)**; Logistic Regression is **more balanced** across versicolor/virginica (P/R ~0.90 each), while KNN finds all versicolor but misclassifies two virginica as versicolor. Model selection and interpretation are recorded; final clean run and remaining checklist items are still pending (Task 1 remains **in progress**).
+**Task 1 progress so far:** The Iris loading and data-inspection cells have been run (150 rows × 6 columns; measurements float64, target int64, species categorical; no nulls; 50 rows per species). The kernel uses the project `.venv`. Species-coloured pair plot and four per-feature box plots are saved to `figures/`. A reproducible stratified 80/20 split (random_state=42, stratify=y) gives 120 train / 30 test with 40/10 per species. Two baseline pipelines (Logistic Regression and KNN) with StandardScaler were fitted on training data only. Test evaluation on the held-out set gives both models **28/30 correct (93.33%)**; Logistic Regression is **more balanced** across versicolor/virginica (P/R ~0.90 each), while KNN finds all versicolor but misclassifies two virginica as versicolor. Model selection and interpretation are recorded; the final clean run from a fresh kernel is verified. Remaining submission items (screenshots/output files, demo video, LinkedIn post, final submission quality-check) are still open (Task 1 remains **in progress**).
 
 Each task folder contains:
 
@@ -77,7 +77,7 @@ Then open the task notebook you want to review and run it top to bottom.
 - [ ] Notebook runs end to end from a fresh kernel
 - [ ] Cleaning, regional/monthly analysis, heatmap, and pre/post-COVID comparison with a confirmed cutoff are complete
 - [ ] Written observation after every chart; no causal claims
-- [x] Task `README.md` has my actual findings and limitations
+- [ ] Task `README.md` has my actual findings and limitations (still TODO placeholders — task not started)
 - [ ] Relevant screenshots/output files are saved
 
 ### Task 5 — Sales Prediction
@@ -86,7 +86,7 @@ Then open the task notebook you want to review and run it top to bottom.
 - [ ] Notebook runs end to end from a fresh kernel
 - [ ] EDA, two regressors, MAE/RMSE/R² comparison, residual plot, and coefficient/importance discussion are complete
 - [ ] Written interpretation does not present predictive importance as causation
-- [x] Task `README.md` has my actual findings and limitations
+- [ ] Task `README.md` has my actual findings and limitations (still TODO placeholders — task not started)
 - [ ] Relevant screenshots/output files are saved
 
 ### Demo videos (one per task, per the task-list workflow)
