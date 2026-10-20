@@ -69,7 +69,7 @@ Then open the task notebook you want to review and run it top to bottom.
 - [x] Chart observations recorded in the notebook
 - [x] Model comparison complete
 - [x] Task `README.md` has my actual findings and limitations
-- [ ] Relevant screenshots/output files are saved
+- [x] Relevant screenshots/output files are saved
 
 ### Task 2 — Unemployment Analysis
 

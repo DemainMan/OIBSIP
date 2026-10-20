@@ -41,7 +41,7 @@ Classify iris flowers into their three species from sepal and petal measurements
 1. Activate the project virtual environment (`source .venv/bin/activate` on Linux/macOS; use the Windows activation command on Windows).
 2. Install dependencies from the repository root with `pip install -r requirements.txt` if needed.
 3. Open `AphileAshley_Task1.ipynb` in PyCharm and select the project `.venv` as its kernel.
-4. Restart the kernel and run the notebook cells from top to bottom as the task is developed.
+4. Restart the kernel and run the notebook cells from top to bottom to reproduce the analysis.
 
 ## Methods and task checklist
 
@@ -55,7 +55,7 @@ Classify iris flowers into their three species from sepal and petal measurements
 - [x] Evaluate each model using accuracy, confusion matrix, precision, recall, and F1
 - [x] Select and justify the best-performing model using actual held-out results
 - [x] Rerun the notebook end to end from a fresh kernel (verified)
-- [ ] Final clean-and-commented polish pass on the notebook cells
+- [x] Final clean-and-commented polish pass on the notebook cells
 
 ## Findings
 
@@ -74,6 +74,6 @@ Classify iris flowers into their three species from sepal and petal measurements
 - [x] Rerun the full notebook from a fresh kernel (verified)
 - [x] Remaining analysis completed (evaluation, comparison, model selection, and conclusions recorded above)
 - [x] Add my chart observations, model comparison, and limitations
-- [ ] Save relevant screenshots/output files as required
+- [x] Save relevant screenshots/output files as required
 - [ ] Record a functioning demo with the required 2-second title card
 - [ ] Post/link the demo on LinkedIn, tag Oasis Infobyte, and include `#oasisinfobyte`
