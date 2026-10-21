@@ -1,0 +1,44 @@
+OIBSIP Task 1 — Iris Flower Classification demo script
+
+Target length: about 2 minutes 30 seconds. Personalize the wording; this is a guide, not a claim that I have recorded a demo.
+
+Important recording note
+The repository checklist asks me to “show the work running end to end.” This script is written for a walkthrough of my already-executed notebook and saved outputs. I must not describe the walkthrough as a live run if I am only showing saved results. If the official task instructions require live execution, I need to decide that before recording; I must not tune or change any model based on the test results.
+
+0:00–0:02 — Static title card
+I display the supplied title-card SVG for the first two seconds. It shows my confirmed full name, Aphile Ashley Ngubeni.
+
+0:02–0:15 — Project and data
+I show my repository and `AphileAshley_Task1.ipynb` in PyCharm.
+Suggested narration: “This is my Iris Flower Classification task for the Oasis Infobyte Data Science internship. I used the Iris dataset included with scikit-learn, so I did not need an external dataset download.”
+
+0:15–0:35 — Inspection
+I show the saved inspection outputs.
+Suggested narration: “I found 150 rows and six columns: four numeric measurements, a numeric target, and readable species labels. I found no missing values, and there are 50 flowers per species.”
+
+0:35–0:55 — Visual exploration
+I show my saved pair plot and box plots.
+Suggested narration: “In my plots, petal length and petal width separate setosa most clearly. Versicolor and virginica still overlap. I also observed different spreads in the box plots: petal width has the narrowest box for setosa and versicolor, while sepal width is narrowest for virginica.”
+
+0:55–1:15 — Split and training
+I show my split and training outputs.
+Suggested narration: “I used a stratified 80/20 split: 120 training flowers and 30 held-out test flowers, with 40 and 10 per species respectively. I fitted both scaled baseline pipelines on the training data only: Logistic Regression and five-neighbour K-Nearest Neighbors.”
+
+1:15–1:50 — Results
+I show my saved accuracy, confusion matrices, and classification reports.
+Suggested narration: “On this held-out split, I got the same accuracy from both models: each classified 28 of 30 flowers correctly, or 93.33 percent. Both classified all setosa correctly. Logistic Regression made one mistake in each direction between versicolor and virginica. KNN classified every versicolor correctly but predicted two virginica as versicolor.”
+
+1:50–2:15 — Model choice and limitations
+I show Sections 6 and 7 of my notebook.
+Suggested narration: “I selected Logistic Regression for this split because its class-level precision and recall were more balanced for versicolor and virginica. This is a baseline comparison on one split; I did not tune the models, and these results do not guarantee future performance or show causation.”
+
+2:15–2:30 — Close
+I show my repository page or notebook title.
+Suggested narration: “That concludes my walkthrough of the Iris Flower Classification task. My notebook and findings are available in my OIBSIP repository.”
+
+Before I record
+- Verify that the title card displays Aphile Ashley Ngubeni, Data Science, and the task title.
+- Test screen capture and microphone; close unrelated windows and notifications.
+- Keep the first title card static for at least two seconds.
+- Use my actual notebook and figures; do not alter results or claim a live run unless I actually perform one.
+- After recording, review the video, upload it to the required host, and keep its actual URL. Only then should I update the README demo/video-link checkboxes.

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="title desc">
+  <title id="title">Oasis Infobyte Data Science — Iris Flower Classification</title>
+  <desc id="desc">Static 16:9 title card template. Replace the full-name placeholder before recording.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B132B"/>
+      <stop offset="0.55" stop-color="#12243A"/>
+      <stop offset="1" stop-color="#164E63"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#70E1C1"/>
+      <stop offset="1" stop-color="#B5A7F5"/>
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="42"/>
+    </filter>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#background)"/>
+  <circle cx="1515" cy="505" r="250" fill="#6FE0C0" opacity="0.12" filter="url(#softGlow)"/>
+  <circle cx="1515" cy="505" r="158" fill="none" stroke="#70E1C1" stroke-width="2" opacity="0.38"/>
+  <circle cx="1515" cy="505" r="122" fill="none" stroke="#B5A7F5" stroke-width="2" opacity="0.46"/>
+  <path d="M1515 346 C1435 390 1435 465 1515 505 C1595 465 1595 390 1515 346Z" fill="#B5A7F5" opacity="0.82"/>
+  <path d="M1515 664 C1435 620 1435 545 1515 505 C1595 545 1595 620 1515 664Z" fill="#70E1C1" opacity="0.82"/>
+  <path d="M1356 505 C1400 425 1475 425 1515 505 C1475 585 1400 585 1356 505Z" fill="#8EC9DA" opacity="0.78"/>
+  <path d="M1674 505 C1630 425 1555 425 1515 505 C1555 585 1630 585 1674 505Z" fill="#A9D8C8" opacity="0.78"/>
+  <circle cx="1515" cy="505" r="42" fill="#F3D58B"/>
+  <rect x="140" y="160" width="88" height="7" rx="3.5" fill="url(#accent)"/>
+  <text x="140" y="225" fill="#A8C2D3" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" letter-spacing="5">OASIS INFOBYTE  •  DATA SCIENCE TRACK</text>
+  <text x="140" y="435" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="700" letter-spacing="1">IRIS FLOWER</text>
+  <text x="140" y="545" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="700" letter-spacing="1">CLASSIFICATION</text>
+  <text x="146" y="625" fill="#B8CDD9" font-family="Arial, Helvetica, sans-serif" font-size="32" letter-spacing="2">TASK 1</text>
+  <line x1="140" y1="700" x2="810" y2="700" stroke="#547386" stroke-width="2"/>
+  <text x="140" y="785" fill="#70E1C1" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="600" letter-spacing="1">Aphile Ashley Ngubeni</text>
+  <text x="140" y="955" fill="#8098AA" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="3">OIBSIP  /  DATA SCIENCE INTERNSHIP</text>
+</svg>
